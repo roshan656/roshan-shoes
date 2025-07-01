@@ -1,0 +1,755 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-size: 25px;
+}
+
+.navardata {
+  margin-left: 280px;
+  margin-top: -43px;
+}
+.navbarcontain {
+margin-top: -16px;
+  
+}
+.navbarimg {
+  width: 130px;
+  margin-left: -27px;
+  margin-top: 27px;
+}
+
+.navbarlogin {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 73px;
+  margin-top: -25px;
+  margin-left: 1178px;
+   font-size: 18.45px;
+}
+
+.navardata nav {
+  display: flex;
+  gap: 140px;
+}
+
+.navardata nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.allsection{
+}
+.hero {
+  padding: 150px 120px;
+}
+.textbody h5{
+  font-size: 8.7rem;
+  margin-left: 134px;
+  margin-top: -154px;
+  text-align: left;
+}
+.paragraph{
+    margin-left: -100px;
+    margin-top: 12px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 310px;
+}
+.hero a {
+  color: #555;
+  font-size: 2.22937rem;
+  float: left;
+  margin-left: -655px;
+}
+
+.hero .buttons a {
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .shop-btn {
+  background-color: red;
+  color: white;
+}
+
+.hero .category-btn {
+  border: 1px solid black;
+  color: #555;
+}
+
+.hero img {
+  width: 510px;
+  margin-left: 730px;
+  margin-top: -476px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  width: 28%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 33px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.signup-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/*  */
+
+.register-submit {
+  display: block;
+  width: 23%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 357px;
+}
+
+.register-submit:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.registercontainer {
+}
+.registersection {
+  padding: 184px;
+  margin-top: -97px;
+  background-color: #f9f9f9;
+}
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem; /* Adjust spacing between inputs */
+}
+.logincontainer {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.loginsection {
+  padding: 184px;
+  margin-top: 7px;
+}
+.contains {
+  padding: 107px;
+  margin-top: -25px;
+}
+.login-text {
+  font-size: 14px;
+}
+.register-title {
+  margin-top: -5px;
+  font-size: 38px;
+}
+.login-title {
+  margin-top: -65px;
+  font-size: 36px;
+}
+.condition {
+  margin-top: 45px;
+}
+.cardcss{
+  width: 933px;
+  margin-left: 233px;
+ .cardcss {
+  padding: 20px;
+}
+
+.product-card {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card .card-body {
+  text-align: center;
+  padding: 15px;
+}
+
+.product-card .card-body h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.product-card .card-body p {
+  font-size: 14px;
+  color: #555;
+}
+
+.order-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: darkorange;
+}
+
+}
+
+
+
+.Womancardcss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Womancardcss .card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Womancardcss .card:hover {
+  transform: scale(1.05);
+}
+
+.Womancardcss .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.Womancardcss .card-body {
+  text-align: center;
+}
+
+.Womancardcss button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Womancardcss button:hover {
+  background-color: #e65c00;
+}
+/* Main container styling */
+.logincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  width: 1199px;
+}
+
+/* Form section */
+/* .loginsection {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 1200px;
+  text-align: center;
+}
+
+/* Title styling */
+.login-title {
+  font-size: 26px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: -64px;
+}
+
+/* Form input styling */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.login-text {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input Fields */
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .form-group input:focus {
+  border-color: #ff5e62;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(255, 94, 98, 0.5);
+} */
+/* Submit button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background: #ff5e62;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background: #e14d4d;
+}
+
+/* Toast notification container */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+/* Main Contact Page Styling */
+
+
+/* Form Box */
+.contact-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  text-align: center;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: gainsboro;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-logo img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+  margin: 20px;
+}
+
+.sidebar-nav a:hover {
+  color: #ff9800;
+}
+/* .contact-container {
+  padding: 50px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.contact-info h2 {
+  color: #007bff;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #007bff;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  width: 100%;
+}
+.about-container {
+  padding: 50px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-left: 2333px;
+  width: 344px;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.about-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.about-card {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.customer-title {
+  margin-top: 40px;
+  font-size: 28px;
+  color: #007bff;
+}
+
+.review-card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.woman-card-container {
+  text-align: center;
+  padding: 10px;
+ width: 933px; 
+ margin-left: 233px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  transition: 0.3s;
+  border-radius: 10px;
+  
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.order-button {
+  width: 100%;
+  font-weight: bold;
+}
+.menu-container {
+  text-align: center;
+  padding: 20px;
+ width: 933px; 
+ margin-left: 233px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.product-card {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.order-btn {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.order-btn:hover {
+  background: #0056b3;
+}
+.about-page {
+  display: flex;
+}
+
+.about-content {
+  margin-left: 260px; /* Sidebar ke liye space */
+  padding: 20px;
+  width: 100%;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* .hero {
+  background: url("./images/shoe_image.png");
+  background-size: cover;
+background-repeat: no-repeat;
+
+} */
+
+.allhomepagebutton {
+  display: flex;
+  justify-content: center; /* बटनों को सेंटर में लाने के लिए */
+  gap: 95px; /* बटनों के बीच स्पेस */
+margin-top: 13px;
+margin-left: -119px;
+}
+
+.allhomepagebutton button {
+  background-color: orange;
+  color: white;
+  padding: 6px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
